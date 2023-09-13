@@ -21,11 +21,13 @@ using namespace vex;
 int main() {
   // Initializing Robot Configuration. DO NOT REMOVE!
   vexcodeInit();
+  
   // if(ButtonB){
   //   DigitalOutA.set(false);
   // }else if(ButtonA){
   //   DigitalOutA.set(true);
   // }
+
   while(1){
     DigitalOutA.set(true);
     wait(2000,msec);
